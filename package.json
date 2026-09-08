@@ -1,0 +1,67 @@
+{
+  "name": "zedokai-for-vscode",
+  "displayName": "Zedokai for VSCode (Unofficial)",
+  "description": "Zedokai theme ported from Zed editor to Visual Studio Code (including Darker & Light variants)",
+  "version": "1.0.0",
+  "publisher": "guiamaral",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "zedokai",
+    "monokai",
+    "monokai pro",
+    "zed",
+    "theme",
+    "dark",
+    "light"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zedokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zedokai.json"
+      },
+      {
+        "label": "Zedokai (Filter Octagon)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zedokai (Filter Octagon).json"
+      },
+      {
+        "label": "Zedokai (Filter Ristretto)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zedokai (Filter Ristretto).json"
+      },
+      {
+        "label": "Zedokai (Filter Spectrum)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zedokai (Filter Spectrum).json"
+      },
+      {
+        "label": "Zedokai (Filter Machine)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zedokai (Filter Machine).json"
+      },
+      {
+        "label": "Zedokai Classic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Zedokai Classic.json"
+      },
+      {
+        "label": "Zedokai Light",
+        "uiTheme": "vs",
+        "path": "./themes/Zedokai Light.json"
+      },
+      {
+        "label": "Zedokai Light (Filter Sun)",
+        "uiTheme": "vs",
+        "path": "./themes/Zedokai Light (Filter Sun).json"
+      }
+    ]
+  }
+}
