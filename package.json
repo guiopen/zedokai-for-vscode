@@ -1,7 +1,7 @@
 {
   "name": "zedokai-for-vscode",
   "displayName": "Zedokai for VSCode (Unofficial)",
-  "description": "Zedokai theme ported from Zed editor to Visual Studio Code (including Darker & Light variants)",
+  "description": "Zedokai theme ported from Zed editor to Visual Studio Code",
   "version": "1.0.0",
   "publisher": "guiamaral",
   "engines": {
@@ -20,6 +20,10 @@
     "light"
   ],
   "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guiopen/zedokai-for-vscode"
+  },
   "contributes": {
     "themes": [
       {
